@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+}
+.container{
+    width: 500px;
+    height: 100vh;
+    margin: auto;
+}
+.container .tittle{
+    width: 100%;
+    margin-top: 25px;
+    background-color: #03A9F4;
+    color: wheat;
+    display: flex
+;
+    justify-content: center;
+    font-size: 25px
+}
+.container .condition{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: white;
+    height: 40px;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    font-weight: bold;
+    border-radius: 5p
+}
+.container button{
+    display: block;
+    width: 100%;
+    height: 35px;
+    color: white;
+    background-color: #E91E63;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer
+}
+.container .words{
+    width: 100%;
+    background-color: white;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+.container input{
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 30px;
+    border: none;
+    border: 2px solid #2196F3;
+    border-radius: 5px
+}
+.container input:focus{
+    outline: none;
+}
+.container .score{
+    display: flex;
+        justify-content: space-around;
+        background-color: white;
+        height: 35px;
+        align-items: center;
+        color: gray;
+        border-radius: 5p
+}
+/* .container .score .time{
+
+}
+.container .score p span:last-child{
+
+} */
+.container span{
+    color: green;
+    font-weight: bold;
+}
+.word{
+    background-color: #FF5722;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-left:5px ;
+    margin-bottom: 5px;
+    width: fit-content;
+}
+.scores{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #2196F3;
+    margin-top: 10px;
+}
+.wrong,.right{
+    color: gray !important;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.wrong .word{
+background-color: red;
+}
+.right .word{
+background-color:  aqua;
+}
+h2{
+    text-align: center;
+    color: #03A9F4
+}
+ul{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: fit-content;
+}
+ul li{
+    list-style: none;
+    width: 100px;
+    height: 30px;
+    background: white;
+    margin-bottom: 10px;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.active{
+    border: 2px solid #F44336;
+}
+/* .condition span:first-child{
+
+}
+.condition span:last-child{
+
+} */
